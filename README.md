@@ -125,3 +125,24 @@ The SQL file includes queries for:
 - Negative value checks
 
 These queries simulate how KPI values can be independently validated before and after migrating a dashboard from Tableau to Google BI / Looker Studio.
+
+## Step 5: Google BI / Looker Studio Dashboard
+
+A Google BI / Looker Studio dashboard was created using the sales dataset as the data source.
+
+The dashboard includes:
+
+- Total Revenue scorecard
+- Total Profit scorecard
+- Total Orders scorecard
+- Average Order Value scorecard
+- Profit Margin scorecard
+- Revenue by Region chart
+- Revenue by Product Category chart
+- Monthly Revenue Trend chart
+- Profit by Sales Channel chart
+- Revenue by Customer Segment chart
+- Interactive filters for date, region, country, product category, sales channel, and customer segment
+
+The dashboard recreates the same business logic defined in the Tableau-style migration plan.
+![DEMO_REPORT](<Screenshot 2026-05-20 215817.png>)
