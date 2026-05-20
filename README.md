@@ -101,3 +101,27 @@ The script validates:
 - Core KPI summary values
 
 This step ensures that the dataset used for the Tableau-to-Google-BI migration is reliable and suitable for dashboard reporting.
+## Step 4: SQL KPI Validation Queries
+
+SQL validation queries were created to validate the core business KPIs used in the dashboard migration.
+
+The SQL file includes queries for:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Average Order Value
+- Profit Margin
+- Revenue by Region
+- Revenue by Country
+- Revenue by Product Category
+- Profit by Sales Channel
+- Revenue by Customer Segment
+- Monthly Revenue Trend
+- Duplicate Order ID checks
+- Revenue formula mismatch checks
+- Profit formula mismatch checks
+- Missing critical value checks
+- Negative value checks
+
+These queries simulate how KPI values can be independently validated before and after migrating a dashboard from Tableau to Google BI / Looker Studio.
