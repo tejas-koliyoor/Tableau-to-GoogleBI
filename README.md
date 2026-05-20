@@ -53,7 +53,7 @@ All core KPIs were successfully validated between the source Tableau-style dashb
 
 ## Repository Structure
 
-```text
+text
 data/
 notebooks/
 sql/
@@ -168,11 +168,7 @@ The purpose of this step is to prove that the migrated dashboard preserves KPI c
 
 ---
 
-# 3. Add Step 7 to `README.md`
 
-Open your `README.md` and add this:
-
-```markdown
 ## Step 7: User Training Guide
 
 A user training guide was created to help business users understand and use the migrated Google BI / Looker Studio dashboard.
@@ -193,11 +189,7 @@ This step demonstrates the ability to support end users during a BI transformati
 
 ---
 
-# 3. Add Step 8 to `README.md`
 
-Open your `README.md` and add:
-
-```markdown
 ## Step 8: Change Management Documentation
 
 Change management notes were created to support the business transition from a Tableau-style dashboard to a Google BI / Looker Studio-style dashboard.
