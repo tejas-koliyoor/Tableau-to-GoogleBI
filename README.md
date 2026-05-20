@@ -85,3 +85,19 @@ The document includes:
 - Success criteria
 
 This step demonstrates the planning and documentation required before migrating a BI dashboard from one reporting tool to another.
+
+## Step 3: Data Quality Validation
+
+A Python validation script was created to check the quality and integrity of the source sales dataset before dashboard migration.
+
+The script validates:
+
+- Missing values
+- Duplicate order IDs
+- Revenue calculation logic
+- Profit calculation logic
+- Valid order dates
+- Negative revenue, quantity, or unit price values
+- Core KPI summary values
+
+This step ensures that the dataset used for the Tableau-to-Google-BI migration is reliable and suitable for dashboard reporting.
