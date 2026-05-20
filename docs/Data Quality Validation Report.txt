@@ -1,0 +1,79 @@
+Data Quality Validation Report
+========================================
+
+1. Dataset Overview
+----------------------------------------
+Number of rows: 500
+Number of columns: 13
+Columns: ['Order_ID', 'Order_Date', 'Region', 'Country', 'Product_Category', 'Product_Name', 'Quantity', 'Unit_Price', 'Revenue', 'Cost', 'Profit', 'Customer_Segment', 'Sales_Channel']
+
+2. Missing Value Check
+----------------------------------------
+Order_ID            0
+Order_Date          0
+Region              0
+Country             0
+Product_Category    0
+Product_Name        0
+Quantity            0
+Unit_Price          0
+Revenue             0
+Cost                0
+Profit              0
+Customer_Segment    0
+Sales_Channel       0
+dtype: int64
+Result: PASSED - No missing values found.
+
+3. Duplicate Order ID Check
+----------------------------------------
+Duplicate Order IDs: 0
+Result: PASSED - No duplicate Order IDs found.
+
+4. Revenue Formula Validation
+----------------------------------------
+Revenue mismatches: 0
+Result: PASSED - Revenue formula is correct.
+
+5. Profit Formula Validation
+----------------------------------------
+Profit mismatches: 0
+Result: PASSED - Profit formula is correct.
+
+6. Date Validation
+----------------------------------------
+Invalid dates: 0
+Result: PASSED - All order dates are valid.
+
+7. Negative Value Checks
+----------------------------------------
+Negative revenue rows: 0
+Negative quantity rows: 0
+Negative unit price rows: 0
+Result: PASSED - No invalid negative values found.
+
+8. KPI Summary
+----------------------------------------
+Total Revenue: 643280
+Total Profit: 209964.11
+Total Orders: 500
+Average Order Value: 1286.56
+Profit Margin: 0.3263961416490486
+
+9. Revenue by Region
+----------------------------------------
+Region
+Europe           230994
+Asia             217779
+North America    194507
+Name: Revenue, dtype: int64
+
+10. Revenue by Product Category
+----------------------------------------
+Product_Category
+Electronics        396630
+Furniture          238100
+Office Supplies      8550
+Name: Revenue, dtype: int64
+
+Validation completed successfully.

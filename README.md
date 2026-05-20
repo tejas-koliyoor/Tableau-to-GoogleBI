@@ -146,3 +146,21 @@ The dashboard includes:
 
 The dashboard recreates the same business logic defined in the Tableau-style migration plan.
 ![DEMO_REPORT](<Screenshot 2026-05-20 215817.png>)
+
+## Step 6: Migration Validation Report
+
+A migration validation report was created to compare KPI values from the source calculation layer with the migrated Google BI / Looker Studio dashboard.
+
+The report validates:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Average Order Value
+- Profit Margin
+- Revenue by Region
+- Revenue by Product Category
+- Dashboard filter behavior
+- Data quality checks
+
+The purpose of this step is to prove that the migrated dashboard preserves KPI consistency and data integrity.
