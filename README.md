@@ -189,3 +189,30 @@ The guide includes:
 - Suggested training session structure
 
 This step demonstrates the ability to support end users during a BI transformation project.
+
+
+---
+
+# 3. Add Step 8 to `README.md`
+
+Open your `README.md` and add:
+
+```markdown
+## Step 8: Change Management Documentation
+
+Change management notes were created to support the business transition from a Tableau-style dashboard to a Google BI / Looker Studio-style dashboard.
+
+The document includes:
+
+- Migration context
+- User-facing changes
+- Key migration risks
+- Communication plan
+- Training plan
+- Access and security considerations
+- Operational support guidelines
+- Support ticket template
+- Post-migration review checklist
+- Success criteria
+
+This step demonstrates the ability to support both the technical and organizational sides of a BI transformation project.
