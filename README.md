@@ -60,3 +60,28 @@ sql/
 reports/
 docs/
 README.md
+
+## Step 1: Source Dataset Creation
+
+A synthetic sales dataset was created to simulate the source data used in an existing Tableau dashboard.
+
+The dataset contains 500 sales transactions with fields such as order date, region, country, product category, product name, revenue, cost, profit, customer segment, and sales channel.
+
+This dataset is used as the single source of truth for validating KPI consistency during the migration from a Tableau-style dashboard to a Google BI / Looker Studio dashboard.
+
+## Step 2: Dashboard Migration Planning
+
+A migration plan was created to define the existing Tableau-style dashboard and the target Google BI / Looker Studio dashboard.
+
+The document includes:
+
+- Source dashboard components
+- Target dashboard requirements
+- KPI calculation logic
+- Dashboard filters
+- Migration validation rules
+- Data quality checks
+- Migration risks and mitigation steps
+- Success criteria
+
+This step demonstrates the planning and documentation required before migrating a BI dashboard from one reporting tool to another.
