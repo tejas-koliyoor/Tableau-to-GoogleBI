@@ -164,3 +164,28 @@ The report validates:
 - Data quality checks
 
 The purpose of this step is to prove that the migrated dashboard preserves KPI consistency and data integrity.
+
+
+---
+
+# 3. Add Step 7 to `README.md`
+
+Open your `README.md` and add this:
+
+```markdown
+## Step 7: User Training Guide
+
+A user training guide was created to help business users understand and use the migrated Google BI / Looker Studio dashboard.
+
+The guide includes:
+
+- Dashboard overview
+- KPI definitions
+- Instructions for using filters
+- Chart interpretation guidance
+- Common user questions
+- Troubleshooting checklist
+- Support ticket instructions
+- Suggested training session structure
+
+This step demonstrates the ability to support end users during a BI transformation project.
